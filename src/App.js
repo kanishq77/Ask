@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import { useState } from "react";
+import Ques from "./components/Ques";
+// import Sure from "./components/Sure";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	// const [showModal, setShowModal] = useState(false);
+
+	// const toggleModal = () => {
+	// 	setShowModal(!showModal);
+	// };
+	return (
+		<div>
+			<Ques></Ques>
+			{/* <Sure /> */}
+		</div>
+	);
 }
 
 export default App;
